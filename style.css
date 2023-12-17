@@ -241,6 +241,24 @@ header {
     left: 3%;
 }
 
+.mainBodyDots {
+    position: relative;
+    top: 60%;
+    left: 3%;
+}
+
+.mainBodyDots i{
+    color: black;
+    margin:5px;
+    font-size: 10px;
+    border:1px solid black;
+    border-radius:50%;
+}
+
+.activeMainDot{
+    color:white !important;
+}
+
 .mainBodyText h1 {
     font-size: 40px;
     padding-bottom: 30px;

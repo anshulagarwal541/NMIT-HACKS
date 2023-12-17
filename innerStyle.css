@@ -75,6 +75,7 @@
         background-size: cover;
         height: 100lvh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -84,6 +85,11 @@
         left: 0;
         text-align: center;
         align-items: center;
+    }
+
+    .mainBodyDots{
+        top:20%;
+        left:0;
     }
 
     .mainBodyText h1 {

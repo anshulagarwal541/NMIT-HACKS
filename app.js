@@ -3,6 +3,47 @@ let closeButton = document.querySelector('.fa-xmark');
 let aside = document.querySelector('aside');
 let greatJones = document.querySelector('.greatJones')
 
+// setting up main body dots....
+
+let allMainDots = document.querySelector('.mainBodyDots').querySelectorAll('i');
+let mainBody = document.querySelector('.mainBody');
+let mainBodyText = document.querySelector('.mainBodyText');
+allMainDots.forEach(dot => {
+    dot.addEventListener('click', function () {
+        let oldActiveDot = document.querySelector('.activeMainDot');
+        oldActiveDot.classList.remove('activeMainDot');
+        if (dot.id === "brown") {
+            if (document.body.clientWidth <= 1350) {
+                mainBody.style.backgroundImage = 'url("https://greatjonesgoods.com/cdn/shop/files/holiday-hosting-01_768x1024_crop_center@2x.jpg?v=1701296886")';
+            }
+            else {
+                mainBody.style.backgroundImage = 'url("https://greatjonesgoods.com/cdn/shop/files/holiday-hosting-02_ad637f00-3e4a-49be-b255-dd4b0291ac68_2160x1215_crop_center.jpg?v=1701293221")';
+            }
+            mainBodyText.children[0].innerHTML = "Great Jones x Houseplant"
+            mainBodyText.children[1].innerHTML = "Get baking with our two collaborative gift sets."
+            mainBodyText.children[2].style.backgroundColor = "#0e5540";
+        }
+        else {
+            if (document.body.clientWidth <= 1350) {
+                mainBody.style.backgroundImage = 'url("https://greatjonesgoods.com/cdn/shop/files/Holiday_General_Mobile_768x1024_crop_center@2x.jpg?v=1701116607")';
+            }
+            else {
+                mainBody.style.backgroundImage = 'url("https://greatjonesgoods.com/cdn/shop/files/Holiday_General_Desktop2_2160x1215_crop_center.jpg?v=1701159133")';
+            }
+            mainBodyText.children[0].innerHTML = "Welcome to Great Jones"
+            mainBodyText.children[1].innerHTML = "Holiday gifts that look as fantastic function.."
+            mainBodyText.children[2].style.backgroundColor = "blue";
+        }
+        dot.classList.add('activeMainDot')
+    })
+})
+
+// if (document.body.clientWidth <= 1350) {
+//     mainBody.style.backgroundImage = 'url("https://greatjonesgoods.com/cdn/shop/files/Holiday_General_Mobile_768x1024_crop_center@2x.jpg?v=1701116607")';
+// }
+// else {
+//     mainBody.style.backgroundImage = 'url("https://greatjonesgoods.com/cdn/shop/files/Holiday_General_Desktop2_2160x1215_crop_center.jpg?v=1701159133")';
+// }
 
 // setting up offer div when we scroll windows
 let offersDiv = document.querySelector('.offers');
