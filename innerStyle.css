@@ -1,0 +1,481 @@
+@media (max-width: 1350px) {
+    .headerLink {
+        display: none;
+    }
+
+    .fa-bar {
+        display: contents;
+    }
+
+    aside.showAside {
+        display: contents !important;
+        height: 100lvh;
+        width: 100%;
+    }
+
+    .asideDiv {
+        background-color: #f4a620;
+        height: 100lvh;
+        width: 100%;
+    }
+
+    .hideGreatJones {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .links2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px 0;
+        position: relative;
+    }
+
+    .sL {
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .smallLogo {
+        background-color: #faeddf;
+        border-radius: 90%;
+    }
+
+    .links2 button {
+        color: black;
+        font-weight: bolder;
+        text-decoration: none;
+        font-size: larger;
+        background-color: transparent;
+        border: none;
+    }
+
+    .link1 button {
+        padding: 10px;
+    }
+
+    .links2 button {
+        padding: 15px;
+    }
+
+    .mainBody {
+        background-image: url("https://greatjonesgoods.com/cdn/shop/files/Holiday_General_Mobile_768x1024_crop_center@2x.jpg?v=1701116607");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100lvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainBodyText {
+        top: 0;
+        left: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .mainBodyText h1 {
+        font-weight: 200;
+    }
+
+    .mainBodyText p {
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+    .mainBodyText button {
+        font-weight: 200;
+        font-size: smaller;
+    }
+
+    .vogue {
+        background-color: #0e5540;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        position: relative;
+    }
+
+    .pic1 {
+        position: relative;
+        top: 50%;
+        right: 100%;
+    }
+
+    .pic2 {
+        position: relative;
+        top: 50%;
+        left: 70%;
+    }
+
+    .pic2 picture {
+        width: 60%;
+        height: auto;
+    }
+
+    .vogueText {
+        display: none;
+    }
+
+    .showVogueText2 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .vogueDisplay div {
+        display: none;
+        margin: 10px;
+        padding: 50px 50px;
+        width: 538px;
+        height: 80px;
+    }
+
+    .showVogueDisplay {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 40px;
+        font-weight: 700;
+    }
+
+    .vogueButtons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vogueButtons i {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .menu {
+        padding: 70px 50px;
+    }
+
+    .menuList ul li {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    .catalog img {
+        padding: 40px 20px;
+    }
+
+    .activeCatalog {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .activeCatalog span {
+        left: auto;
+        padding: 5px;
+    }
+
+    .activeCatalog h3 {
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .celebrations {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .celebrations div {
+        width: 100%;
+    }
+
+    .celebrationFood {
+        background-image: url("https://greatjonesgoods.com/cdn/shop/files/GJ_HOLIDAY_9912_1023x673_crop_center@2x.jpg?v=1700671467");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .celebrationText {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text h2 {
+        padding: 20px 30px;
+        font-size: 30px;
+    }
+
+    #p {
+        font-weight: 600;
+        padding-bottom: 10%;
+        margin: 0 40px;
+        border-bottom: none;
+    }
+
+    #upDiv {
+        border-right: 1px solid black;
+    }
+
+    .textDiv {
+        width: 70%;
+        flex-direction: row;
+        padding: 30px 40px;
+    }
+
+    .textDiv div {
+        width: fit-content;
+        padding: 20px 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .textDiv div i {
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    .btns {
+        display: none;
+    }
+
+    .whatsHeader {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .dishCatalog img {
+        width: 450px;
+        height: 500px;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .dishCatalog p {
+        width: fit-content;
+        margin-left: 10px;
+        font-size: larger;
+    }
+
+    .celebrationButtons {
+        display: flex;
+        justify-content: center;
+    }
+
+    #iBtns i {
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    .activeIBtn {
+        color: #f4a620 !important;
+    }
+
+    footer {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .queries {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        margin: 60px 0;
+    }
+
+    .emails {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .emails p {
+        width: 100%;
+    }
+
+    .emails form {
+        width: 100%;
+    }
+
+    .emailSubmit {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        border-bottom: 2px solid white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .emailSubmit input {
+        width: 80%;
+        font-size: 40px;
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+
+    .emailSubmit button {
+        font-size: 20px;
+        color: white;
+        background-color: transparent;
+        border: none;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .footerLinks {
+        width: 100%;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .fImg {
+        color: white;
+        margin-right: 30px;
+    }
+
+    .fImg p {
+        margin: 0;
+        font-size: larger;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .fImgLinks {
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    .fImg img {
+        width: 250px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .fImgLinks ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .showFImg {
+        margin: 0;
+        padding: 0;
+    }
+
+    .fImgLinks ul li {
+        margin: 10px;
+    }
+
+    .fImgLinks ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footerLinksImage {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .socialMedia {
+        width: 90%;
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .socialDiv {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socialDiv p {
+        text-align: center;
+        padding: 10;
+        color: white;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icons i {
+        font-size: larger;
+        padding: 10;
+        ;
+    }
+
+    .footerBottomLinks {
+        width: fit-content;
+        height: auto;
+        margin: 0px;
+    }
+
+    .footerBottomLinks ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footerBottomLinks ul li {
+        width: 250px;
+        padding-right: 30px;
+        margin: 5px;
+    }
+
+    .footerBottomLinks ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .footerImage img{
+        width:400px;
+    }
+}

@@ -1,0 +1,854 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Nosifer&family=Outfit&family=Pacifico&family=Roboto:wght@100;300&family=Source+Code+Pro&family=Ysabeau+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing:content-box;
+    contain: content;
+}
+
+.links2 {
+    display: none;
+}
+
+aside {
+    display: none;
+}
+
+.asideHeader {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.asideHeader i {
+    font-weight: 800;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.logo {
+    font-weight: 900;
+    border: 4px solid black;
+    padding: 10px 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: x-large;
+}
+
+.asideListLink ul {
+    list-style: none;
+}
+
+.asideListLink ul li {
+    font-weight: 900;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.asideListLink {
+    padding: 10px 20px;
+}
+
+.asideLowerLinks {
+    background-color: transparent;
+    padding: 40px 20px;
+}
+
+.asideLowerLinks ul {
+    list-style: none;
+}
+
+.asideLowerLinks ul li {
+    padding: 5px;
+}
+
+header {
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.offers {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: white;
+    /* padding: 5px 0; */
+    width: 100%;
+    position: relative;
+}
+
+.leftArrow {
+    position: absolute;
+    left: 0;
+}
+
+.rightArrow {
+    position: absolute;
+    right: 0;
+}
+
+.offerDiv {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+/* .offerDiv::-webkit-scrollbar{
+    display:none;
+} */
+
+.leftArrow i {
+    padding: 5px 10px;
+}
+
+.rightArrow i {
+    padding: 5px 10px;
+}
+
+.greenOne {
+    min-width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #0e5540;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pinkOne {
+    text-align: center;
+    min-width: 100%;
+    background-color: #960047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pinkOneText {
+    width: fit-content;
+}
+
+.pinkTimer {
+    width: fit-content;
+    padding: 0 3px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeSingle {
+    padding: 2px;
+}
+
+.timeSingle h5 {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.timeSingle p {
+    font-size: 7px;
+    font-weight: 700;
+}
+
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    position: relative;
+    height: max-content;
+}
+
+.links button {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.leftHeaderLink,
+.rightHeaderLink {
+    padding: 0 10px;
+    height: 23px;
+}
+
+.leftHeaderLink button {
+    margin: 0 10px;
+    padding-bottom: 3px;
+}
+
+.rightHeaderLink button {
+    margin: 0 10px;
+    padding-bottom: 5px;
+}
+
+.bL {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigLogo {
+    width: fit-content;
+    height: fit-content;
+    background-color: #faeddf;
+    border-radius: 50%;
+}
+
+.fa-bar {
+    display: none;
+}
+
+.headerReferences {
+    padding: 10px 10px;
+    background-color: #faeddf;
+    height: 53px;
+}
+
+.mainBody {
+    background-image: url("https://greatjonesgoods.com/cdn/shop/files/Holiday_General_Desktop2_2160x1215_crop_center.jpg?v=1701159133");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.mainBodyText {
+    position: relative;
+    top: 30%;
+    left: 3%;
+}
+
+.mainBodyText h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.mainBodyText p {
+    font-size: x-large;
+    padding-bottom: 30px;
+}
+
+.mainBodyText button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.vogueText {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 600px;
+}
+
+.vogueText ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.vogueText ul li button img {
+    height: 50px;
+    transform: scale(0.7);
+    filter: brightness(0) invert(1);
+}
+
+
+.active img {
+    filter: brightness(100%) !important;
+}
+
+.vogueText ul li button {
+    background-color: transparent;
+    margin-left: 5px;
+    border: none;
+
+}
+
+.vogue {
+    background-color: #0e5540;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70lvh;
+    position: relative;
+    width: 100%;
+}
+
+.pic1 {
+    position: relative;
+    top: 6%;
+    left: -10%;
+}
+
+.pic2 {
+    position: relative;
+    top: 50%;
+    right: -10%;
+}
+
+.anchorText {
+    top: 2%;
+    color: #f4a620;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    width: 700px;
+    height: 250px;
+}
+
+.vogueText2 {
+    display: none;
+}
+
+.vogueDisplay div {
+    display: none;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 10px;
+    transform: translateX(0);
+}
+
+.vogueDisplay div h1 img {
+    width: 150px;
+    height: 40px;
+    filter: brightness(0);
+}
+
+.anchorText p {
+    display: none;
+}
+
+.active {
+    display: contents !important;
+}
+
+.activeMenuType {
+    transition: 0.25s all !important;
+    border-bottom: 3px solid black;
+}
+
+.menu {
+    height: auto;
+    background-color: #faeddf;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.menuList ul {
+    list-style: none;
+    font-weight: 800;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    position: relative;
+    padding: 50px 10px;
+}
+
+.menuList ul li {
+    padding: 5px;
+    margin: 0 20px;
+}
+
+/* .menuList ul li{
+    padding:3px;
+    text-decoration: underline;
+} */
+
+.itemCatalog {
+    display: none;
+}
+
+.activeCatalog {
+    display: contents;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.catalog {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: fit-content;
+}
+
+.catalog img {
+    width: 250px;
+    height: 150px;
+    background-color: #ded3c2;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+
+.catalog span {
+    position: absolute;
+    top: 3%;
+    left: 70%;
+    background-color: #0e5540;
+    color: white;
+    font-weight: 700;
+    font-size: largers;
+    padding: 3px;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+.catalog h3 {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+}
+
+.catalog p {
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#catalogBtn {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0e5540;
+    color: white;
+    font-size: larger;
+    border: none;
+    transition: 0.25s all;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.catalogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.celebrations {
+    display: flex;
+    flex-direction: row;
+}
+
+.celebrationFood {
+    width: 75%;
+    height: 90lvh;
+    background-image: url("https://greatjonesgoods.com/cdn/shop/files/GJ_HOLIDAY_9939_1065x_crop_center@2x.jpg?v=1700671461");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.celebrationText {
+    background-color: #f4a620;
+    width: 25%;
+    height: fit-content;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 90%;
+}
+
+.text h2 {
+    padding-top: 60%;
+    font-size: 40px;
+}
+
+#p {
+    font-weight: 600;
+    padding-top: 3px;
+    padding-bottom: 20%;
+    border-bottom: 1px solid black;
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.textDiv div i {
+    font-size: x-large;
+    padding: 10px;
+}
+
+.textDiv div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 3px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.whatsCooking {
+    background-color: #faeddf;
+    display: block;
+}
+
+.whatsHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px;
+    align-items: baseline;
+}
+
+.whatsHeader {
+    font-size: 25px;
+}
+
+.celebrationButtons {
+    display: none;
+}
+
+.btns i {
+    padding: 10px;
+    border: 2px solid #0e5540;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.dishCatalog {
+    display: block;
+    width: fit-content;
+    height: auto;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+.dishCatalog img {
+    width: 420px;
+    height: 450px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.dishCatalog p {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.dishesCatalog {
+    display: flex;
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.dishesCatalog::-webkit-scrollbar {
+    display: none;
+}
+
+footer {
+    height: 100lvh;
+    background-color: #0e5540;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.emails {
+    width: fit-content;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 60%;
+    padding: 30px;
+    margin-right: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.emails p {
+    font-size: larger;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+.emailSubmit {
+    border-bottom: 3px solid white;
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.emailSubmit input {
+    width: 80%;
+    font-size: 40px;
+    padding: 5px 0;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.emailSubmit button {
+    font-size: 20px;
+    padding: 5px 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.mediaIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialDiv p {
+    padding: 10px;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons i {
+    font-size: larger;
+    padding: 10px;
+}
+
+.fImg {
+    color: white;
+}
+
+.fImg p {
+    margin: 10px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.fImgLinks {
+    padding: 20px;
+}
+
+.fImg img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+.fImgLinks ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fImgLinks ul li {
+    margin: 4px;
+    transition: 0.25s all;
+}
+
+.fImgLinks ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerLinksImage {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerBottomLinks {
+    width: fit-content;
+    height: auto;
+    margin: 8px;
+}
+
+.footerBottomLinks ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footerBottomLinks ul li {
+    width: 270px;
+    margin: 4px;
+    transition: 0.25s all;
+}
+
+.footerBottomLinks ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.queries {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerLinks {
+    width: 50%;
+    padding: 20px;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+}
+
+.socialMedia {
+    width: 1148px;
+}
+
+.socialDiv {
+    width: 610.23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.GJLogo {
+    border: 4px solid white;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90%;
+}
+
+.icons i {
+    color: white;
+    transition: 0.25s all;
+}
+
+.GJLogo p {
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.asideHeader i,
+li,
+.logo:hover {
+    cursor: pointer;
+}
+
+header i,
+.headerLink,
+.bigLogo:hover {
+    cursor: pointer;
+}
+
+main .mainBodyText,
+i,
+button,
+li,
+.catalog,
+.dishCatalog,
+#iBtns:hover {
+    cursor: pointer;
+}
+
+#catalogBtn:hover {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #0e5540;
+    color: #0e5540;
+}
+
+footer .GJLogo,
+li,
+i:hover {
+    cursor: pointer;
+}
+
+footer li:hover {
+    filter: brightness(70%);
+}
+
+footer i:hover {
+    filter: brightness(70%);
+}
+
+.leftHeaderLink button:hover {
+    border-bottom: 2px solid black;
+}
+
+.rightHeaderLink button:hover {
+    border-bottom: 2px solid black;
+}
+
+.offerDiv:hover {
+    cursor: pointer;
+}

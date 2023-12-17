@@ -1,0 +1,172 @@
+@media (max-width:500px) {
+    .pinkOne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pinkOneText {
+        width: 300px;
+        text-align: center;
+    }
+
+    .leftArrow,
+    .rightArrow {
+        display: none;
+    }
+
+    .mainBody {
+        background-position: center;
+    }
+
+    .mainBodyText {
+        transform: scale(0.8);
+    }
+
+    .vogueText2 {
+        transform: scale(0.6);
+    }
+
+    .vogueDisplay div {
+        font-size: 20px;
+        padding: 100px 20px;
+        transform: translateX(0);
+    }
+
+    .pic2 {
+        bottom: -80px;
+        left: 20%;
+    }
+
+    .menu {
+        padding: 0 5px;
+        padding-top: 70px;
+        padding-bottom: 10px;
+    }
+
+    .menuList {
+        margin-bottom: 0px;
+    }
+
+    .menuList ul {
+        justify-content: space-between;
+        min-width: 100%;
+        padding: 10px;
+        overflow-x: scroll;
+    }
+
+    .menuList ul li {
+        font-size: 15px;
+        margin: 0 15px;
+        min-width: fit-content;
+    }
+
+    .catalog img {
+        width: 144px;
+        height: 104px;
+        padding: 30px 20px;
+
+    }
+
+    .catalog {
+        width: 196px;
+        height: 280px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .activeCatalog h3 {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .catalog p {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .activeCatalog {
+        display: grid;
+        grid-template-columns: repeat(2, 0.8fr);
+        gap: 10px;
+    }
+
+    .activeCatalog span {
+        top: 2%;
+        font-size: 12px;
+    }
+
+    .catalogs {
+        padding-top: 10px;
+    }
+
+    .celebrationFood {
+        background-image: url("https://greatjonesgoods.com/cdn/shop/files/GJ_HOLIDAY_9912_414x_crop_center@2x.jpg?v=1700671467");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 271px;
+    }
+
+    #p {
+        margin: 0 20px;
+        padding-bottom: 0px;
+    }
+
+    .textDiv {
+        padding: 10px 20px;
+        padding-bottom: 20px;
+    }
+
+    .dishCatalog img {
+        width: 254px;
+        height: 270px;
+        margin: 0px;
+    }
+
+    .dishCatalog p {
+        font-size: 18px;
+        padding: 5px 7px;
+        margin-left: 0%;
+        width: 239px;
+        height: 45px;
+        border-radius: 40px;
+        margin-top: 3px;
+    }
+
+    .dishCatalog {
+        padding: 6px 5px;
+        padding-bottom: 0;
+    }
+
+    .emails p {
+        font-size: 18px;
+    }
+
+    .GJLogo p {
+        font-size: 30px;
+    }
+
+    img.showFImg {
+        width: 176px;
+        height: 141px;
+    }
+
+    .fImgLinks ul li {
+        margin: 3px;
+    }
+
+    .footerBottomLinks {
+        padding-top: 20px;
+    }
+
+    .footerBottomLinks ul li {
+        width: 176px;
+    }
+
+    .footerImage img {
+        display: none;
+    }
+}
